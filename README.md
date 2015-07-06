@@ -6,12 +6,12 @@ In this tutorial we are going to show you how to run a test with Selenium Webdri
 For a mobile web application example with Appium please follow the instructions covered [here]().
 
 ##Table of Contents
-1. [Dependencies]()
-2. [Code Example]()
-3. [Running Tests on Sauce]()
-4. [Running Against Local Applications]()
-5. [Reporting to the Sauce Labs Dashboard]()
-6. [Running Tests in Parallel]()
+1. [Dependencies](https://github.com/jsmoxon/PythonDocs#dependencies)
+2. [Code Example](https://github.com/jsmoxon/PythonDocs#code-example)
+3. [Running Tests on Sauce](https://github.com/jsmoxon/PythonDocs#running-tests-on-sauce)
+4. [Running Against Local Applications](https://github.com/jsmoxon/PythonDocs#running-against-local-applications)
+5. [Reporting to the Sauce Labs Dashboard](https://github.com/jsmoxon/PythonDocs#reporting-to-the-sauce-labs-dashboard)
+6. [Running Tests in Parallel](https://github.com/jsmoxon/PythonDocs#running-tests-in-parallel)
 
 ##Dependencies
 First, add the [Selenium WebDriver API](http://www.seleniumhq.org/download/) to your local Python environment using [pip](https://pypi.python.org/pypi/pip):
