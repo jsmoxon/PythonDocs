@@ -53,7 +53,7 @@ print driver.title
 # It's important so that you aren't billed after your test finishes.
 driver.quit()
 ```
-Copy this code and save it into a file called first_test.py. Make sure your username and access key are correct. Then open terminal, navigate to the directory where the file is located, and execute the test by typing:
+Copy this code and save it into a file called first_test.py. Make sure your username and access key are included in the URL passed through to the command_executor. Then open terminal, navigate to the directory where the file is located, and execute the test by typing:
 
 ```
 python first_test.py
