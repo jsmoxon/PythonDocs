@@ -156,10 +156,10 @@ desired_cap = {
 ##Running Tests in Parallel
 Now that you're running tests on Sauce, you may wonder how you can run your tests more quickly. Running tests in parallel is the answer! 
 
-To do this we will need to use a third party test runner. Sauce Labs recommends using [py.test](http://pytest.org/latest/). (Py.test is an independent open source project and is not maintained by Sauce Labs.)
+To do this we will need to use a third party test runner. Sauce Labs recommends using [py.test](http://pytest.org/latest/). (Py.test is an independent open source project and is not maintained by Sauce Labs.) For this demo you must use Py.test 2.5.2.
 ```
-pip install -U pytest # or
-easy_install -U pytest
+pip install -U pytest 2.5.2 # or
+easy_install -U pytest 2.5.2
 ```
 Now, let's use the [platform configurator](https://docs.saucelabs.com/reference/platforms-configurator/) to add four platforms that we want to test on. Replace "desired_cap" in our example script above with an array of configs like so: 
 
