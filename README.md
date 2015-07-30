@@ -110,7 +110,7 @@ Sauce Connect is a tunneling app that allows you to execute tests securely when 
  
 ## Reporting to the Sauce Labs Dashboard
 ####Recording Pass/Failure Results
-"Wait," you might be asking, "My test says Finished but what happens if it fails?"
+"Wait," you might be asking, "My test says 'Complete' but what happens if it fails?"
 
 Unfortunately, Sauce has no way to determine whether your test passed or failed automatically, since it is determined entirely by your business logic. We can, however, tell Sauce about the results of our tests automatically using the [Sauce python client](https://pypi.python.org/pypi/sauceclient):
 ```
@@ -241,7 +241,7 @@ class FirstSampleTest(unittest.TestCase):
 	def setUp(self):
 		self.desired_capabilities['name'] = self.id()
 		self.driver = webdriver.Remote(
-		   command_executor='http://jsmoxon:135be0f0-cc13-4faf-ae37-94e1092aa543@ondemand.saucelabs.com:80/wd/hub',
+		   command_executor='http://USERNAME:ACCESSKEY:80/wd/hub',
 		   desired_capabilities=self.desired_capabilities)
 		self.driver.implicitly_wait(30)
 
